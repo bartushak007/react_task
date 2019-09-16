@@ -4,6 +4,7 @@ import './style/activity.scss';
 
 const Activity = ({
   variant,
+  className,
   pointer,
   title,
   total,
@@ -11,7 +12,7 @@ const Activity = ({
   percent: { value, icon }
 }) => {
   return (
-    <div className="activity abroad">
+    <div className={`activity  abroad ${className}`}>
       <div className="activity__header space-between wrap-head">
         <h3 className="title">{title}</h3>
         <span className={`activity__pointer activity__pointer--${variant}`}>

@@ -2,7 +2,7 @@
   "activities": [
     {
       "variant": "blue",
-      "class": "income",
+      "className": "income",
       "pointer": "Monthly",
       "title": "Income",
       "total": "40 886,200",
@@ -11,7 +11,7 @@
     },
     {
       "variant": "ocean",
-      "class": "orders",
+      "className": "orders",
       "pointer": "Annual",
       "title": "Orders",
       "total": "275,800",
@@ -20,7 +20,7 @@
     },
     {
       "variant": "green",
-      "class": "visits",
+      "className": "visits",
       "pointer": "Today",
       "title": "Visits",
       "total": "106,120",
@@ -29,7 +29,7 @@
     },
     {
       "variant": "red",
-      "class": "user-activity",
+      "className": "user-activity",
       "pointer": "Low value",
       "title": "User activity",
       "total": "80,600",

@@ -3,6 +3,6 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
   align-items: start;
   grid-auto-rows: auto;
-  grid-template-areas: 'income orders visits userActivity';
+  grid-template-areas: 'income orders visits user-activity';
   grid-gap: 2rem;
 }
