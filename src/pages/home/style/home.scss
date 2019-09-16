@@ -2,7 +2,30 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   align-items: start;
-  grid-auto-rows: auto;
-  grid-template-areas: 'income orders visits user-activity';
-  grid-gap: 2rem;
+
+  grid-template-areas:
+    'income orders visits user-activity'
+    'orders-in-graphs orders-in-graphs orders-in-graphs orders-in-graphs';
+
+  grid-gap: 1.5rem;
+
+  .income {
+    grid-area: income;
+  }
+
+  .orders {
+    grid-area: orders;
+  }
+
+  .visits {
+    grid-area: visits;
+  }
+
+  .user-activity {
+    grid-area: user-activity;
+  }
+
+  .orders-in-graphs {
+    grid-area: orders-in-graphs;
+  }
 }

@@ -14,10 +14,11 @@ const icons = {
   bolt: faBolt
 };
 
-const Icon = ({ icon, fontSize }) => (
+const Icon = ({ icon, fontSize, className }) => (
   <FontAwesomeIcon
-    style={fontSize ? { fontSize: '10px' } : {}}
+    style={fontSize ? { fontSize } : {}}
     icon={icons[icon]}
+    className={className}
   />
 );
 

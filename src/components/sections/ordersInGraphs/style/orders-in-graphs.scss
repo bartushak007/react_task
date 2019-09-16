@@ -1,0 +1,30 @@
+.orders-in-graphs {
+  &__btn {
+    border: solid 1px #ccc;
+    background: #fff;
+    color: #959799;
+    padding: 0.2rem 0.5rem;
+    border-radius: 2px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 0.4s;
+    box-shadow: inset 0px 0px 4px 1px rgba(0, 0, 0, 0);
+
+    &--active {
+      box-shadow: inset 0px 0px 4px 1px rgba(0, 0, 0, 0.35);
+    }
+  }
+
+  &__graph-container {
+    display: flex;
+    align-items: center;
+  }
+
+  &__img {
+    width: 77%;
+  }
+
+  &__collection {
+    width: 23%;
+  }
+}

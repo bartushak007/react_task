@@ -36,5 +36,74 @@
       "totalTitle": "In first month",
       "percent": { "value": 38, "icon": "down" }
     }
-  ]
+  ],
+  "ordersInGraphs": {
+    "title": "Orders",
+    "switchGraphs": [
+      {
+        "name": "Today",
+        "graphs": [
+          {
+            "total": "2,346",
+            "totalTitle": "Total orders in period",
+            "percent": { "value": 48, "icon": "up" }
+          },
+          {
+            "total": "4,422",
+            "totalTitle": "Orders in last month",
+            "percent": { "value": 60, "icon": "down" }
+          },
+          {
+            "total": "9.180",
+            "totalTitle": "Monthly income from orders",
+            "percent": { "value": 22, "icon": "up" }
+          }
+        ]
+      },
+      {
+        "name": "Monthly",
+        "graphs": [
+          {
+            "total": "8,356",
+            "totalTitle": "Total orders in period",
+            "percent": { "value": 55, "icon": "up" }
+          },
+          {
+            "total": "7,482",
+            "totalTitle": "Orders in last month",
+            "percent": { "value": 90, "icon": "down" }
+          },
+          {
+            "total": "9.180",
+            "totalTitle": "Monthly income from orders",
+            "percent": { "value": 50, "icon": "up" }
+          }
+        ]
+      },
+      {
+        "name": "Annual",
+        "graphs": [
+          {
+            "total": "10,946",
+            "totalTitle": "Total orders in period",
+            "percent": { "value": 22, "icon": "up" }
+          },
+          {
+            "total": "7,822",
+            "totalTitle": "Orders in last month",
+            "percent": { "value": 46, "icon": "down" }
+          },
+          {
+            "total": "1.720",
+            "totalTitle": "Monthly income from orders",
+            "percent": { "value": 80, "icon": "up" }
+          }
+        ]
+      }
+    ],
+    "graph": {
+      "src": "images/sections/ordersInGraphs/graph.png",
+      "alt": "graph"
+    }
+  }
 }

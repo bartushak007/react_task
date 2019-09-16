@@ -1,0 +1,21 @@
+.graphs-collection {
+  padding-left: 0.5rem;
+
+  &__total {
+    font-size: 1.25rem;
+    font-weight: normal;
+  }
+
+  &__progress {
+    margin: 0.5rem 0;
+  }
+
+  &__progress-bar {
+    background: #19b393;
+    height: 0.3rem;
+  }
+
+  &__icon {
+    color: #23c6c7;
+  }
+}
