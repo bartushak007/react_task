@@ -1,9 +1,16 @@
 import React from 'react';
-
-// import './style/home.scss';
+import Activities from '../../components/blocks/activity';
+import './style/home.scss';
 
 const Home = ({ data }) => {
-  return <div className="home container">start</div>;
+  console.log(data);
+  return (
+    <div className="home container">
+      {data.activities.map(activity => (
+        <Activities key={activity.title} {...activity} />
+      ))}
+    </div>
+  );
 };
 
 export default Home;

@@ -1,0 +1,8 @@
+.home {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-items: start;
+  grid-auto-rows: auto;
+  grid-template-areas: 'income orders visits userActivity';
+  grid-gap: 2rem;
+}

@@ -1,1 +1,40 @@
-{}
+{
+  "activities": [
+    {
+      "variant": "blue",
+      "class": "income",
+      "pointer": "Monthly",
+      "title": "Income",
+      "total": "40 886,200",
+      "totalTitle": "Total income",
+      "percent": { "value": 98, "icon": "bolt" }
+    },
+    {
+      "variant": "ocean",
+      "class": "orders",
+      "pointer": "Annual",
+      "title": "Orders",
+      "total": "275,800",
+      "totalTitle": "New orders",
+      "percent": { "value": 20, "icon": "up" }
+    },
+    {
+      "variant": "green",
+      "class": "visits",
+      "pointer": "Today",
+      "title": "Visits",
+      "total": "106,120",
+      "totalTitle": "New visits",
+      "percent": { "value": 44, "icon": "up" }
+    },
+    {
+      "variant": "red",
+      "class": "user-activity",
+      "pointer": "Low value",
+      "title": "User activity",
+      "total": "80,600",
+      "totalTitle": "In first month",
+      "percent": { "value": 38, "icon": "down" }
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+.activity {
+  background: #fff;
+
+  &__header {
+    background: #fff;
+  }
+
+  &__pointer {
+    background: #1d83c6;
+    color: #fff;
+    display: block;
+    padding: 0.2rem 0.5rem;
+    border-radius: 2px;
+    letter-spacing: 1px;
+
+    &--blue {
+      background: #1d83c6;
+    }
+
+    &--ocean {
+      background: #23c6c7;
+    }
+
+    &--green {
+      background: #19b393;
+    }
+
+    &--red {
+      background: #ed5564;
+    }
+  }
+
+  &__total {
+    font-size: 2rem;
+    font-weight: normal;
+  }
+
+  &__percent {
+    color: #1d83c6;
+    &--blue {
+      color: #1d83c6;
+    }
+
+    &--ocean {
+      color: #23c6c7;
+    }
+
+    &--green {
+      color: #19b393;
+    }
+
+    &--red {
+      color: #ed5564;
+    }
+  }
+}
