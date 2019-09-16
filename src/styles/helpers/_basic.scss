@@ -1,0 +1,30 @@
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.title {
+  font-size: 1.25rem;
+  font-weight: 500;
+
+  &--bolder {
+    font-weight: bolder;
+  }
+}
+
+.container {
+  max-width: 90rem;
+  margin: 0 auto;
+  padding: 1rem;
+}
