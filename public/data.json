@@ -105,5 +105,9 @@
       "src": "images/sections/ordersInGraphs/graph.png",
       "alt": "graph"
     }
+  },
+  "messages": {
+    "title": "Messages",
+    "messagesList": []
   }
 }

@@ -33,7 +33,7 @@ const OrdersInGraphs = ({
 
   return (
     <div className="orders-in-graphs abroad">
-      <div className="a space-between wrap-head">
+      <div className="space-between wrap-head">
         <h3 className="title">{title}</h3>
         <div>{switchGraphs.map(renderButtons)}</div>
       </div>

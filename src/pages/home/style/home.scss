@@ -5,7 +5,8 @@
 
   grid-template-areas:
     'income orders visits user-activity'
-    'orders-in-graphs orders-in-graphs orders-in-graphs orders-in-graphs';
+    'orders-in-graphs orders-in-graphs orders-in-graphs orders-in-graphs'
+    'content-collection content-collection content-collection content-collection';
 
   grid-gap: 1.5rem;
 
@@ -27,5 +28,21 @@
 
   .orders-in-graphs {
     grid-area: orders-in-graphs;
+  }
+
+  .home__content-collection {
+    grid-area: content-collection;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: start;
+    grid-template-areas: 'messages-container, lists-container';
+    grid-gap: 1.5rem;
+
+    &__messages-container {
+      grid-area: messages-container;
+    }
+    &__lists-container {
+      grid-area: lists-container;
+    }
   }
 }

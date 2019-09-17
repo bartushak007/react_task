@@ -5,22 +5,32 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faLevelDownAlt,
   faLevelUpAlt,
-  faBolt
+  faBolt,
+  faAngleUp,
+  faAngleDown,
+  faWrench,
+  faTimes
 } from '@fortawesome/free-solid-svg-icons';
 
 const icons = {
   down: faLevelDownAlt,
   up: faLevelUpAlt,
-  bolt: faBolt
+  bolt: faBolt,
+  angleUp: faAngleUp,
+  angleDown: faAngleDown,
+  wrench: faWrench,
+  times: faTimes
 };
 
-const Icon = ({ icon, fontSize, className }) => (
-  <FontAwesomeIcon
-    style={fontSize ? { fontSize } : {}}
-    icon={icons[icon]}
-    className={className}
-  />
-);
+const Icon = ({ icon, fontSize, ...props }) => {
+  return (
+    <FontAwesomeIcon
+      {...props}
+      style={fontSize ? { fontSize } : {}}
+      icon={icons[icon]}
+    />
+  );
+};
 
 Icon.defaultProps = {
   icon: ''
