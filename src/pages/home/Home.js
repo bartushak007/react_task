@@ -1,4 +1,6 @@
 import React from 'react';
+import PropTypes from 'prop-types';
+
 import Activities from '../../components/blocks/activity';
 import OrdersInGraphs from '../../components/sections/ordersInGraphs';
 import './style/home.scss';
@@ -14,6 +16,10 @@ const Home = ({ data }) => {
       <OrdersInGraphs ordersInGraphs={data.ordersInGraphs} />
     </div>
   );
+};
+
+Home.propTypes = {
+  data: PropTypes.object.isRequired
 };
 
 export default Home;
