@@ -1,0 +1,48 @@
+.transactions {
+  &__container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+    padding: 0 0.5rem;
+    min-height: 2rem;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+  }
+
+  &__inner {
+    width: 48%;
+  }
+
+  &__cell-num {
+    width: 10%;
+  }
+
+  &__cell-transaction {
+    width: 40%;
+  }
+
+  &__cell-date {
+    text-align: center;
+    width: 25%;
+  }
+
+  &__cell-amount {
+    width: 25%;
+    text-align: center;
+  }
+
+  &__amount {
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+    padding: 0.2rem 0.5rem;
+    border-radius: 2px;
+    letter-spacing: 1px;
+    background: #19b393;
+  }
+}

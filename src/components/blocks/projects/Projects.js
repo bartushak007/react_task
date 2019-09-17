@@ -10,7 +10,7 @@ const Projects = ({ projectsList }) => {
   return (
     <div className=" wrap-content">
       <div className="projects__item">
-        <div className="projects__cell">
+        <div className="projects__cell projects__cell--wider">
           <span className="title"> Status</span>
         </div>
         <div className="projects__cell">
@@ -19,7 +19,7 @@ const Projects = ({ projectsList }) => {
         <div className="projects__cell">
           <span className="title"> User</span>
         </div>
-        <div className="projects__cell">
+        <div className="projects__cell projects__cell--narrow">
           <span className="title"> Value</span>
         </div>
       </div>
@@ -31,7 +31,7 @@ const Projects = ({ projectsList }) => {
 const Project = React.memo(({ status, date, user, value }) => {
   return (
     <div className="projects__item">
-      <div className="projects__cell">
+      <div className="projects__cell projects__cell--wider">
         <span
           className={`projects__cell-status projects__cell-status--${status.toLowerCase()}`}
         >
@@ -42,7 +42,7 @@ const Project = React.memo(({ status, date, user, value }) => {
         <Icon icon="clock" /> {date}
       </div>
       <div className="projects__cell">{user}</div>
-      <div className="projects__cell projects__cell-value">
+      <div className="projects__cell projects__cell--narrow projects__cell-value">
         {value}% <Icon icon="up" />
       </div>
     </div>

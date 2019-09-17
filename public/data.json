@@ -146,6 +146,12 @@
         "date": "Today 3:45 pm - 12.06.2014",
         "message": "lorem ipsum dolor sit amet consectetur dolor sit amet consectetur adipiscing elit sed do eiusmod adipiscing elit sed do eiusmod ",
         "ago": 22
+      },
+      {
+        "fullName": "Luc Besson",
+        "date": "Today 3:45 pm - 12.06.2014",
+        "message": "lorem ipsum dolor sit amet consectetur dolor sit amet consectetur adipiscing elit sed do eiusmod adipiscing elit sed do eiusmod ",
+        "ago": 25
       }
     ]
   },
@@ -198,7 +204,24 @@
       { "text": "Go to shop", "done": false, "when": "" },
       { "text": "Learn react js library", "done": true, "when": "" },
       { "text": "Buy car", "done": false, "when": "" },
+      { "text": "Buy milk", "done": true, "when": "" },
       { "text": "Buy milk", "done": true, "when": "" }
+    ]
+  },
+  "transactions": {
+    "title": "Transactions worldwide",
+    "map": "images/blocks/transactions/map.png",
+    "transactionsList": [
+      { "transaction": "Monitors", "date": "16 jun 2014", "amount": "483.00" },
+      { "transaction": "Cars", "date": "16 jun 2014", "amount": "660.00" },
+      { "transaction": "Phones", "date": "17 jun 2014", "amount": "483.00" },
+      {
+        "transaction": "Security doors",
+        "date": "18 jun 2014",
+        "amount": "550.00"
+      },
+      { "transaction": "Phones", "date": "19 jun 2014", "amount": "789.00" },
+      { "transaction": "Monitors", "date": "22 jun 2014", "amount": "550.00" }
     ]
   }
 }

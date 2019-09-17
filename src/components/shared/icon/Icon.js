@@ -9,7 +9,8 @@ import {
   faAngleUp,
   faAngleDown,
   faWrench,
-  faTimes
+  faTimes,
+  faDollarSign
 } from '@fortawesome/free-solid-svg-icons';
 
 import { faEnvelope, faClock } from '@fortawesome/free-regular-svg-icons';
@@ -22,7 +23,8 @@ const icons = {
   wrench: faWrench,
   times: faTimes,
   envelope: faEnvelope,
-  clock: faClock
+  clock: faClock,
+  dollar: faDollarSign
 };
 
 const Icon = ({ icon, fontSize, ...props }) => {

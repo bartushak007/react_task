@@ -7,6 +7,7 @@ import PartialContent from '../../components/shared/partialContent';
 import Messages from '../../components/blocks/messages';
 import Projects from '../../components/blocks/projects';
 import Todo from '../../components/blocks/todo';
+import Transactions from '../../components/blocks/transactions';
 
 import './style/home.scss';
 
@@ -36,10 +37,14 @@ const Home = ({ data }) => {
               <Todo {...data.todo} />
             </PartialContent>
           )}
-          <PartialContent
-            title={data.messages.title}
-            className="transactions"
-          ></PartialContent>
+          {data.transactions && (
+            <PartialContent
+              title={data.transactions.title}
+              className="transactions"
+            >
+              <Transactions {...data.transactions} />
+            </PartialContent>
+          )}
         </div>
       </div>
     </div>
