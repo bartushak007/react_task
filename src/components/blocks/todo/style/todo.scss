@@ -1,0 +1,18 @@
+.todo {
+  &__item {
+    display: flex;
+    align-items: center;
+    background: #f3f3f4;
+    border-radius: 4px;
+    margin: 0.2rem 0;
+    padding: 0.529rem;
+  }
+
+  &__text {
+    margin-left: 0.5rem;
+
+    &--done {
+      text-decoration: line-through;
+    }
+  }
+}

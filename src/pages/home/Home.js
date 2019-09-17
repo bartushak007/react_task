@@ -6,6 +6,8 @@ import OrdersInGraphs from '../../components/sections/ordersInGraphs';
 import PartialContent from '../../components/shared/partialContent';
 import Messages from '../../components/blocks/messages';
 import Projects from '../../components/blocks/projects';
+import Todo from '../../components/blocks/todo';
+
 import './style/home.scss';
 
 const Home = ({ data }) => {
@@ -24,13 +26,16 @@ const Home = ({ data }) => {
           </PartialContent>
         </div>
         <div className="home__lists-container">
-          <PartialContent title={data.projects.title} className="projects">
-            <Projects {...data.projects} />
-          </PartialContent>
-          <PartialContent
-            title={data.messages.title}
-            className="todo"
-          ></PartialContent>
+          {data.projects && (
+            <PartialContent title={data.projects.title} className="projects">
+              <Projects {...data.projects} />
+            </PartialContent>
+          )}
+          {data.todo && (
+            <PartialContent title={data.todo.title} className="todo">
+              <Todo {...data.todo} />
+            </PartialContent>
+          )}
           <PartialContent
             title={data.messages.title}
             className="transactions"

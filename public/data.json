@@ -189,5 +189,16 @@
         "value": 78
       }
     ]
+  },
+  "todo": {
+    "title": "Small todo list",
+    "todoList": [
+      { "text": "Buy car", "done": false, "when": "" },
+      { "text": "Buy milk", "done": true, "when": "" },
+      { "text": "Go to shop", "done": false, "when": "" },
+      { "text": "Learn react js library", "done": true, "when": "" },
+      { "text": "Buy car", "done": false, "when": "" },
+      { "text": "Buy milk", "done": true, "when": "" }
+    ]
   }
 }
