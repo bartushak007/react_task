@@ -1,0 +1,227 @@
+{
+  "activities": [
+    {
+      "variant": "blue",
+      "className": "income",
+      "pointer": "Monthly",
+      "title": "Income",
+      "total": "40 886,200",
+      "totalTitle": "Total income",
+      "percent": { "value": 98, "icon": "bolt" }
+    },
+    {
+      "variant": "ocean",
+      "className": "orders",
+      "pointer": "Annual",
+      "title": "Orders",
+      "total": "275,800",
+      "totalTitle": "New orders",
+      "percent": { "value": 20, "icon": "up" }
+    },
+    {
+      "variant": "green",
+      "className": "visits",
+      "pointer": "Today",
+      "title": "Visits",
+      "total": "106,120",
+      "totalTitle": "New visits",
+      "percent": { "value": 44, "icon": "up" }
+    },
+    {
+      "variant": "red",
+      "className": "user-activity",
+      "pointer": "Low value",
+      "title": "User activity",
+      "total": "80,600",
+      "totalTitle": "In first month",
+      "percent": { "value": 38, "icon": "down" }
+    }
+  ],
+  "ordersInGraphs": {
+    "title": "Orders",
+    "switchGraphs": [
+      {
+        "name": "Today",
+        "graphs": [
+          {
+            "total": "2,346",
+            "totalTitle": "Total orders in period",
+            "percent": { "value": 48, "icon": "up" }
+          },
+          {
+            "total": "4,422",
+            "totalTitle": "Orders in last month",
+            "percent": { "value": 60, "icon": "down" }
+          },
+          {
+            "total": "9.180",
+            "totalTitle": "Monthly income from orders",
+            "percent": { "value": 22, "icon": "up" }
+          }
+        ]
+      },
+      {
+        "name": "Monthly",
+        "graphs": [
+          {
+            "total": "8,356",
+            "totalTitle": "Total orders in period",
+            "percent": { "value": 55, "icon": "up" }
+          },
+          {
+            "total": "7,482",
+            "totalTitle": "Orders in last month",
+            "percent": { "value": 90, "icon": "down" }
+          },
+          {
+            "total": "9.180",
+            "totalTitle": "Monthly income from orders",
+            "percent": { "value": 50, "icon": "up" }
+          }
+        ]
+      },
+      {
+        "name": "Annual",
+        "graphs": [
+          {
+            "total": "10,946",
+            "totalTitle": "Total orders in period",
+            "percent": { "value": 22, "icon": "up" }
+          },
+          {
+            "total": "7,822",
+            "totalTitle": "Orders in last month",
+            "percent": { "value": 46, "icon": "down" }
+          },
+          {
+            "total": "1.720",
+            "totalTitle": "Monthly income from orders",
+            "percent": { "value": 80, "icon": "up" }
+          }
+        ]
+      }
+    ],
+    "graph": {
+      "src": "images/sections/ordersInGraphs/graph.png",
+      "alt": "graph"
+    }
+  },
+  "messages": {
+    "title": "Messages",
+    "newMessages": 22,
+    "draftMessages": 16,
+    "messagesList": [
+      {
+        "fullName": "Sarah Connor",
+        "date": "Today 5:59 pm - 12.06.2014",
+        "message": "lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod dolor sit amet consectetur adipiscing elit",
+        "ago": 2
+      },
+      {
+        "fullName": "Luc Besson",
+        "date": "Today 3:45 pm - 12.06.2014",
+        "message": "lorem ipsum dolor sit amet consectetur dolor sit amet consectetur adipiscing elit sed do eiusmod adipiscing elit sed do eiusmod ",
+        "ago": 5
+      },
+      {
+        "fullName": "Sarah Connor",
+        "date": "Today 5:59 pm - 12.06.2014",
+        "message": "lorem ipsum dolor sit amet consectetur adipiscing elit sed do dolor sit amet consectetur adipiscing elit ",
+        "ago": 6
+      },
+      {
+        "fullName": "Luc Besson",
+        "date": "Today 3:45 pm - 12.06.2014",
+        "message": "lorem ipsum dolor sit amet consectetur dolor sit amet consectetur adipiscing elit sed do eiusmod adipiscing elit sed do eiusmod ",
+        "ago": 10
+      },
+      {
+        "fullName": "Sarah Connor",
+        "date": "Today 5:59 pm - 12.06.2014",
+        "message": "lorem ipsum dolor sit amet consectetur adipiscing elit sed dolor sit amet consectetur adipiscing elit eiusmod ",
+        "ago": 12
+      },
+      {
+        "fullName": "Luc Besson",
+        "date": "Today 3:45 pm - 12.06.2014",
+        "message": "lorem ipsum dolor sit amet consectetur dolor sit amet consectetur adipiscing elit sed do eiusmod adipiscing elit sed do eiusmod ",
+        "ago": 22
+      },
+      {
+        "fullName": "Luc Besson",
+        "date": "Today 3:45 pm - 12.06.2014",
+        "message": "lorem ipsum dolor sit amet consectetur dolor sit amet consectetur adipiscing elit sed do eiusmod adipiscing elit sed do eiusmod ",
+        "ago": 25
+      }
+    ]
+  },
+  "projects": {
+    "title": "User project list",
+    "projectsList": [
+      {
+        "status": "Pending...",
+        "date": "10.07.15",
+        "user": "Sarah",
+        "value": 45
+      },
+      {
+        "status": "Canceled",
+        "date": "10.07.15",
+        "user": "Monica",
+        "value": 25
+      },
+      {
+        "status": "Completed",
+        "date": "10.07.15",
+        "user": "Adam",
+        "value": 78
+      },
+      {
+        "status": "Pending...",
+        "date": "10.07.15",
+        "user": "Sarah",
+        "value": 45
+      },
+      {
+        "status": "Canceled",
+        "date": "10.07.15",
+        "user": "Monica",
+        "value": 25
+      },
+      {
+        "status": "Completed",
+        "date": "10.07.15",
+        "user": "Adam",
+        "value": 78
+      }
+    ]
+  },
+  "todo": {
+    "title": "Small todo list",
+    "todoList": [
+      { "text": "Buy car", "done": false, "when": "" },
+      { "text": "Buy milk", "done": true, "when": "" },
+      { "text": "Go to shop", "done": false, "when": "" },
+      { "text": "Learn react js library", "done": true, "when": "" },
+      { "text": "Buy car", "done": false, "when": "" },
+      { "text": "Buy milk", "done": true, "when": "" },
+      { "text": "Buy milk", "done": true, "when": "" }
+    ]
+  },
+  "transactions": {
+    "title": "Transactions worldwide",
+    "map": "images/blocks/transactions/map.png",
+    "transactionsList": [
+      { "transaction": "Monitors", "date": "16 jun 2014", "amount": "483.00" },
+      { "transaction": "Cars", "date": "16 jun 2014", "amount": "660.00" },
+      { "transaction": "Phones", "date": "17 jun 2014", "amount": "483.00" },
+      {
+        "transaction": "Security doors",
+        "date": "18 jun 2014",
+        "amount": "550.00"
+      },
+      { "transaction": "Phones", "date": "19 jun 2014", "amount": "789.00" },
+      { "transaction": "Monitors", "date": "22 jun 2014", "amount": "550.00" }
+    ]
+  }
+}
