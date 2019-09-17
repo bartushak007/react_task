@@ -2,7 +2,7 @@ import React, { memo } from 'react';
 import PropTypes from 'prop-types';
 
 import Icon from '../../shared/icon';
-import Image from '../../shared/image';
+// import Image from '../../shared/image';
 import './style/transactions.scss';
 
 const Transactions = ({ transactionsList, map }) => {
@@ -23,9 +23,7 @@ const Transactions = ({ transactionsList, map }) => {
         </div>
         {transactionsList.map(renderTransactionsItem)}
       </div>
-      <div className="transactions__inner ">
-        <Image src={map} />
-      </div>
+      <div className="transactions__inner ">{/* <Image src={map} /> */}</div>
     </div>
   );
 };

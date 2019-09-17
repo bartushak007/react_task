@@ -1,0 +1,14 @@
+{
+  "transactionsList": [
+    { "transaction": "Monitors", "date": "16 jun 2014", "amount": "483.00" },
+    { "transaction": "Cars", "date": "16 jun 2014", "amount": "660.00" },
+    { "transaction": "Phones", "date": "17 jun 2014", "amount": "483.00" },
+    {
+      "transaction": "Security doors",
+      "date": "18 jun 2014",
+      "amount": "550.00"
+    },
+    { "transaction": "Phones", "date": "19 jun 2014", "amount": "789.00" },
+    { "transaction": "Monitors", "date": "22 jun 2014", "amount": "550.00" }
+  ]
+}

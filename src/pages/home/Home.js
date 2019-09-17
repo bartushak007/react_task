@@ -7,7 +7,7 @@ import PartialContent from '../../components/shared/partialContent';
 import Messages from '../../components/blocks/messages';
 import Projects from '../../components/blocks/projects';
 import Todo from '../../components/blocks/todo';
-import Transactions from '../../components/blocks/transactions';
+import TransactionsContainer from '../../containers/TransactionsContainer';
 
 import './style/home.scss';
 
@@ -42,7 +42,7 @@ const Home = ({ data }) => {
               title={data.transactions.title}
               className="transactions"
             >
-              <Transactions {...data.transactions} />
+              <TransactionsContainer />
             </PartialContent>
           )}
         </div>
