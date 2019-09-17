@@ -12,10 +12,11 @@ const PartialContent = ({ children, title }) => {
       {children}
     </button>
   );
+
   return (
     <div className="abroad partial-content">
       <div className="space-between wrap-head">
-        <h3 className="title">{'title'}</h3>{' '}
+        <h3 className="title">{title}</h3>{' '}
         <div>
           <ToggleBtn>
             <Icon icon={toggle ? 'angleUp' : 'angleDown'} />
@@ -28,13 +29,15 @@ const PartialContent = ({ children, title }) => {
           </button>
         </div>
       </div>
-      <div className="wrap-content">
+      <div>
         {toggle ? (
           children
         ) : (
-          <ToggleBtn>
-            <span className="partial-content__dots">...</span>
-          </ToggleBtn>
+          <div className="wrap-content">
+            <ToggleBtn>
+              <span className="partial-content__dots">...</span>
+            </ToggleBtn>
+          </div>
         )}
       </div>
     </div>

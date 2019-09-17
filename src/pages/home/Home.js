@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 import Activities from '../../components/blocks/activity';
 import OrdersInGraphs from '../../components/sections/ordersInGraphs';
 import PartialContent from '../../components/shared/partialContent';
+import Messages from '../../components/blocks/messages';
 import './style/home.scss';
 
 const Home = ({ data }) => {
@@ -17,7 +18,9 @@ const Home = ({ data }) => {
       <OrdersInGraphs ordersInGraphs={data.ordersInGraphs} />
       <div className="home__content-collection">
         <div className="home__messages-container">
-          <PartialContent>messages</PartialContent>
+          <PartialContent title={data.messages.title}>
+            <Messages {...data.messages} />
+          </PartialContent>
         </div>
         <div className="home__lists-container">2</div>
       </div>

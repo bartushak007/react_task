@@ -108,6 +108,45 @@
   },
   "messages": {
     "title": "Messages",
-    "messagesList": []
+    "newMessages": 22,
+    "draftMessages": 16,
+    "messagesList": [
+      {
+        "fullName": "Sarah Connor",
+        "date": "Today 5:59 pm - 12.06.2014",
+        "message": "lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod dolor sit amet consectetur adipiscing elit",
+        "ago": 2
+      },
+      {
+        "fullName": "Luc Besson",
+        "date": "Today 3:45 pm - 12.06.2014",
+        "message": "lorem ipsum dolor sit amet consectetur dolor sit amet consectetur adipiscing elit sed do eiusmod adipiscing elit sed do eiusmod ",
+        "ago": 5
+      },
+      {
+        "fullName": "Sarah Connor",
+        "date": "Today 5:59 pm - 12.06.2014",
+        "message": "lorem ipsum dolor sit amet consectetur adipiscing elit sed do dolor sit amet consectetur adipiscing elit ",
+        "ago": 6
+      },
+      {
+        "fullName": "Luc Besson",
+        "date": "Today 3:45 pm - 12.06.2014",
+        "message": "lorem ipsum dolor sit amet consectetur dolor sit amet consectetur adipiscing elit sed do eiusmod adipiscing elit sed do eiusmod ",
+        "ago": 10
+      },
+      {
+        "fullName": "Sarah Connor",
+        "date": "Today 5:59 pm - 12.06.2014",
+        "message": "lorem ipsum dolor sit amet consectetur adipiscing elit sed dolor sit amet consectetur adipiscing elit eiusmod ",
+        "ago": 12
+      },
+      {
+        "fullName": "Luc Besson",
+        "date": "Today 3:45 pm - 12.06.2014",
+        "message": "lorem ipsum dolor sit amet consectetur dolor sit amet consectetur adipiscing elit sed do eiusmod adipiscing elit sed do eiusmod ",
+        "ago": 22
+      }
+    ]
   }
 }
