@@ -3,6 +3,9 @@ import React from 'react';
 import Template from './components/layout/template';
 import Home from './pages/home';
 
+import { Provider } from 'react-redux';
+import store from './redux/store';
+
 import useFetch from './hooks/useFetch';
 import { resolvePath } from './helpers/index';
 
@@ -11,7 +14,9 @@ const App = () => {
 
   return (
     <div className="App">
-      <Template>{!loading && <Home data={data} />}</Template>
+      <Provider store={store}>
+        <Template>{!loading && <Home data={data} />}</Template>
+      </Provider>
     </div>
   );
 };
