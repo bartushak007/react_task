@@ -1,4 +1,6 @@
 import React from 'react';
+import PropTypes from 'prop-types';
+
 import Icon from '../../shared/icon';
 import './style/activity.scss';
 
@@ -31,6 +33,19 @@ const Activity = ({
       </div>
     </div>
   );
+};
+
+Activity.propTypes = {
+  variant: PropTypes.string,
+  className: PropTypes.string,
+  pointer: PropTypes.string,
+  title: PropTypes.string,
+  total: PropTypes.string,
+  totalTitle: PropTypes.string,
+  percent: PropTypes.shape({
+    value: PropTypes.number,
+    icon: PropTypes.string
+  }).isRequired
 };
 
 export default Activity;
