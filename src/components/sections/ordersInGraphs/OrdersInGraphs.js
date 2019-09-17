@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import PropTypes from 'prop-types';
 
 import Image from '../../shared/image';
 import GraphsCollection from '../../blocks/graphsCollection';
@@ -44,6 +45,17 @@ const OrdersInGraphs = ({
       </div>
     </div>
   );
+};
+
+OrdersInGraphs.propTypes = {
+  ordersInGraphs: PropTypes.shape({
+    title: PropTypes.string,
+    switchGraphs: PropTypes.arrayOf(
+      PropTypes.shape({ name: PropTypes.string, graphs: PropTypes.array })
+    ),
+    graph: PropTypes.shape({ src: PropTypes.string, alt: PropTypes.string })
+      .isRequired
+  }).isRequired
 };
 
 export default OrdersInGraphs;
