@@ -5,6 +5,7 @@ import Activities from '../../components/blocks/activity';
 import OrdersInGraphs from '../../components/sections/ordersInGraphs';
 import PartialContent from '../../components/shared/partialContent';
 import Messages from '../../components/blocks/messages';
+import Projects from '../../components/blocks/projects';
 import './style/home.scss';
 
 const Home = ({ data }) => {
@@ -22,7 +23,19 @@ const Home = ({ data }) => {
             <Messages {...data.messages} />
           </PartialContent>
         </div>
-        <div className="home__lists-container">2</div>
+        <div className="home__lists-container">
+          <PartialContent title={data.projects.title} className="projects">
+            <Projects {...data.projects} />
+          </PartialContent>
+          <PartialContent
+            title={data.messages.title}
+            className="todo"
+          ></PartialContent>
+          <PartialContent
+            title={data.messages.title}
+            className="transactions"
+          ></PartialContent>
+        </div>
       </div>
     </div>
   );

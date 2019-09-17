@@ -12,7 +12,7 @@ import {
   faTimes
 } from '@fortawesome/free-solid-svg-icons';
 
-import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
+import { faEnvelope, faClock } from '@fortawesome/free-regular-svg-icons';
 const icons = {
   down: faLevelDownAlt,
   up: faLevelUpAlt,
@@ -21,7 +21,8 @@ const icons = {
   angleDown: faAngleDown,
   wrench: faWrench,
   times: faTimes,
-  envelope: faEnvelope
+  envelope: faEnvelope,
+  clock: faClock
 };
 
 const Icon = ({ icon, fontSize, ...props }) => {

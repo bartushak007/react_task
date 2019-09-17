@@ -5,7 +5,7 @@ import Icon from '../icon';
 import useToggle from '../../../hooks/useToggle';
 import './style/partial-content.scss';
 
-const PartialContent = ({ children, title }) => {
+const PartialContent = ({ children, title, className }) => {
   const { toggle, turnToggle } = useToggle();
   const ToggleBtn = ({ children }) => (
     <button className="partial-content__btn" onClick={turnToggle}>
@@ -14,7 +14,7 @@ const PartialContent = ({ children, title }) => {
   );
 
   return (
-    <div className="abroad partial-content">
+    <div className={`abroad partial-content ${className ? className : ''}`}>
       <div className="space-between wrap-head">
         <h3 className="title">{title}</h3>{' '}
         <div>

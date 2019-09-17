@@ -148,5 +148,46 @@
         "ago": 22
       }
     ]
+  },
+  "projects": {
+    "title": "User project list",
+    "projectsList": [
+      {
+        "status": "Pending...",
+        "date": "10.07.15",
+        "user": "Sarah",
+        "value": 45
+      },
+      {
+        "status": "Canceled",
+        "date": "10.07.15",
+        "user": "Monica",
+        "value": 25
+      },
+      {
+        "status": "Completed",
+        "date": "10.07.15",
+        "user": "Adam",
+        "value": 78
+      },
+      {
+        "status": "Pending...",
+        "date": "10.07.15",
+        "user": "Sarah",
+        "value": 45
+      },
+      {
+        "status": "Canceled",
+        "date": "10.07.15",
+        "user": "Monica",
+        "value": 25
+      },
+      {
+        "status": "Completed",
+        "date": "10.07.15",
+        "user": "Adam",
+        "value": 78
+      }
+    ]
   }
 }

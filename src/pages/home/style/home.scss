@@ -32,17 +32,36 @@
 
   .home__content-collection {
     grid-area: content-collection;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    align-items: start;
-    grid-template-areas: 'messages-container, lists-container';
-    grid-gap: 1.5rem;
+  }
+}
 
-    &__messages-container {
-      grid-area: messages-container;
-    }
-    &__lists-container {
-      grid-area: lists-container;
-    }
+.home__content-collection {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: start;
+  grid-template-areas: 'messages-container lists-container lists-container';
+  grid-gap: 1.5rem;
+}
+
+.home__messages-container {
+  grid-area: messages-container;
+}
+
+.home__lists-container {
+  grid-area: lists-container;
+  align-items: start;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: 'projects todo' 'transactions transactions';
+  grid-gap: 1.5rem;
+
+  .projects {
+    grid-area: projects;
+  }
+  .todo {
+    grid-area: todo;
+  }
+  .transactions {
+    grid-area: transactions;
   }
 }
