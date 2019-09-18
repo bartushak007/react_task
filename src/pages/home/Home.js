@@ -8,7 +8,6 @@ import Messages from '../../components/blocks/messages';
 import Projects from '../../components/blocks/projects';
 import Todo from '../../components/blocks/todo';
 import TransactionsContainer from '../../containers/TransactionsContainer';
-
 import './style/home.scss';
 
 const Home = ({ data }) => {
@@ -46,6 +45,7 @@ const Home = ({ data }) => {
             </PartialContent>
           )}
         </div>
+        {/* <TransactionsMapContainer /> */}
       </div>
     </div>
   );
